@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScriptAlert</title>
+    <script src="matter.js"></script>
+</head>
+<body>
+    <script src="matter.js"></script>
+</body>
+</html> -->
+
+
+
+
+
+
+//          Qno 1
+
+var age = 15 
+
+alert(`I am ${age} year old`)
+
+
+
+
+
+//        Qno 2
+
+var time = 14;
+
+alert(`You have visited this website ${time} times`);
+
+
+
+
+//          Qno 3
+
+var birthYear = 2005
+
+document.body.innerHTML = `My birth year is ${birthYear}...`; 
+
+
+
+
+
+//          Qno 4
+
+var Name = "Ahsan"
+var quantity = 5
+var product = "Polo shirts(s)"
+var store = "Ghouri Clothing Store"
+
+document.body.innerHTML = `${Name} ordered ${quantity} ${product} on ${store}.`; 
