@@ -1,0 +1,75 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScriptAlert</title>
+    <script src="matter.js"></script>
+</head>
+<body>
+    this is a page
+    <script src="matter.js"></script>
+</body>
+</html> -->
+
+
+
+//      Qno 1
+var username 
+
+
+
+//      Qno 2
+var myName = "MUHAMMAD AHSAN KHAN"
+console.log(myName);
+
+
+
+//      Qno 3
+var message = "Hello World"
+alert(message)
+
+
+
+//      Qno 4
+var name1 = "John Doe"
+var age = "15 year old"
+var education = "Certified Mobile Application Developnment."
+
+alert(name1)
+alert(age)
+alert(education)
+
+
+
+
+//      Qno 5
+var pizza = "PIZZA\nPIZZ\nPIZ\nPI\nP"
+alert(pizza)
+
+
+
+
+//      Qno 6
+var email = "my email is ahsankhn0987@gmail.com"
+alert(email)
+
+
+
+
+
+//      Qno 7
+var book = "I am trying learn JS from A faster way to learn JavaScript"
+alert(book)
+
+
+
+//      Qno 8
+document.body.innerHTML = "yah! I can write HTML content through JavaScript....</h1>"; 
+
+
+
+
+//      Qno 9
+var show = "--------$&%*$--------"
+alert(show)
