@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScriptAlert</title>
+    <script src="matter.js"></script>
+</head>
+<body>
+    <script src="matter.js"></script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+//          Qno 1
+
+var age = 15, name = "John", isStudent = true;
+
+
+
+
+
+//        Qno 2
+
+/* Legal Variable Names:
+
+
+userName
+_age
+totalAmount
+isStudent
+$price
+
+
+
+
+Illegal Variable Names:
+
+
+1stPlace 
+var 
+user-name
+@home
+total amount */
+
+
+
+
+
+
+
+
+
+//          Qno 3
+
+
+var Name = "Variable names can only contain letters, numbers, $, and _. For example: $my_1stVariable.";
+var Varriable = "Variables must begin with a letter, $, or _. For example: $name, _name, name.";
+var product = "Variable names are case-sensitive.";
+var store = "Variable names should not be JavaScript keywords.";
+
+document.body.innerHTML = `
+    <h1>Rules for Naming JavaScript Variables</h1>
+    <p>${Name}</p>
+    <p>${Varriable}</p>
+    <p>${product}</p>
+    <p>${store}</p>
+`;
