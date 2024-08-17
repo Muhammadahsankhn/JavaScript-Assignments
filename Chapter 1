@@ -1,0 +1,144 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="matter.js"></script>
+</head>
+<body>
+    
+</body>
+</html>-->
+
+
+
+
+
+//              Qno 1
+
+alert("Welcome to my website.");
+
+
+
+
+
+//              Qno 2
+
+alert("Error! please enter a valid password.");
+
+
+
+
+
+//              Qno3
+
+alert("Welcome to JS land... \nHappy Coding!");
+
+
+
+
+//              Qno 4
+
+alert("Welcome to JS land...");
+alert("Happy Coding!");
+
+
+
+
+
+
+//              Qno5
+
+alert("Hello.. I can run JS through my web browser's console.");
+
+
+
+
+
+
+//              Qno 6
+
+alert("Head section");
+
+
+
+
+
+
+
+
+//          Qno 7
+
+
+
+
+/*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Alert</title>
+    <link rel="stylesheet" href="matter.js">
+    <script>
+        alert("Head section");
+    </script>
+</head>
+<body>
+    this is a page
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Alert</title>
+    <link rel="stylesheet" href="matter.js">
+</head>
+<script>
+    alert("Before Body Tag.");
+</script>
+<body>
+    this is a page
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Alert</title>
+    <link rel="stylesheet" href="matter.js">
+</head>
+<body>
+    <script>
+        alert("Inside Body Tag.");
+    </script>
+    this is a page
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Alert</title>
+    <link rel="stylesheet" href="matter.js">
+</head>
+<body>
+    this is a page
+</body>
+</html>
+<script>
+    alert("Outside HTML page.");
+</script>*/
