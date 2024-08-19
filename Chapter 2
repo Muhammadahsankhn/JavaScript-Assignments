@@ -65,7 +65,7 @@ alert(book)
 
 
 //      Qno 8
-document.body.innerHTML = "yah! I can write HTML content through JavaScript....</h1>"; 
+document.write ("yah! I can write HTML content through JavaScript....</h1>"); 
 
 
 
