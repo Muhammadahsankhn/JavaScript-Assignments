@@ -7,7 +7,7 @@
     <script src="matter.js"></script>
 </head>
 <body>
-    <script src="matter.js"></script>
+
 </body>
 </html>-->
 
@@ -29,7 +29,7 @@
 
 // var sum = num1 + num2;
 
-// document.body.innerHTML = `The sum of ${num1} and ${num2} is ${sum}.`;
+// document.write (`The sum of ${num1} and ${num2} is ${sum}.`);
 
 
 
@@ -45,10 +45,10 @@
 // var subb = num1 - num2;
 // var modul = num1 % num2;
 
-// document.body.innerHTML += `<br>The division of ${num1} and ${num2} is ${divi}.`;
-// document.body.innerHTML += `<br>The multiple of ${num1} and ${num2} is ${mult}.`;
-// document.body.innerHTML += `<br>The subbtraction of ${num1} and ${num2} is ${subb}.`;
-// document.body.innerHTML += `<br>The Modulus of ${num1} and ${num2} is ${modul}.`;
+// document.write ( `<br>The division of ${num1} and ${num2} is ${divi}.`);
+// document.write ( `<br>The multiple of ${num1} and ${num2} is ${mult}.`);
+// document.write ( `<br>The subbtraction of ${num1} and ${num2} is ${subb}.`);
+// document.write ( `<br>The Modulus of ${num1} and ${num2} is ${modul}.`);
 
 
 
@@ -64,22 +64,22 @@
 
 // var value 
 
-// document.body.innerHTML += `<br>Value After varriable declaration is ${value}.`;
+// document.write ( `<br>Value After varriable declaration is ${value}.`);
 
 // var value = 5;
-// document.body.innerHTML += `<br>Initial Value ${value}.`;
+// document.write (`<br>Initial Value ${value}.`);
 
 // var value = ++value;
-// document.body.innerHTML += `<br>Value after increament ${value}.`;
+// document.write (`<br>Value after increament ${value}.`);
 
 // var value = value + 7;
-// document.body.innerHTML += `<br>Value after Addition ${value}.`;
+// document.write ( `<br>Value after Addition ${value}.`);
 
 // var value = --value; 
-// document.body.innerHTML += `<br>Value after decreament ${value}.`;
+// document.write ( `<br>Value after decreament ${value}.`);
 
 // var value = value % 3;
-// document.body.innerHTML += `<br>Remainder is ${value}.`;
+// document.write ( `<br>Remainder is ${value}.`);
 
 
 
@@ -94,7 +94,7 @@
 
 // var buy = 5;
 
-// document.body.innerHTML += `<br>Total cost of buy ${buy} ticket to a movie is ${ticket*buy}PKR.`;
+// document.write ( `<br>Total cost of buy ${buy} ticket to a movie is ${ticket*buy}PKR.`);
 
 
 
@@ -106,10 +106,10 @@
 
 // var table = 4;
 
-// document.body.innerHTML += `<br>Table of ${table}`;
+// document.write ( `<br>Table of ${table}`);
 // for (var i = 1; i <= 10; i++) {
 //     var result = table * i;
-//     document.body.innerHTML += `<br>${table} x ${i} = ${result}`;
+//     document.write ( `<br>${table} x ${i} = ${result}`);
 // }
 
 
@@ -127,7 +127,7 @@
 
 // var fahrenheit = (celcius * 9/5) + 32;
 
-// document.body.innerHTML += `<br>${celcius}°C is equal to ${fahrenheit}°F`;
+// document.write ( `<br>${celcius}°C is equal to ${fahrenheit}°F`);
 
 
 
@@ -135,7 +135,7 @@
 
 // var celcius = (fahrenheit - 32) * 5/9
 
-// document.body.innerHTML += `<br>${fahrenheit}°F is equal to ${celcius.toFixed(2)}°C`;
+// document.write ( `<br>${fahrenheit}°F is equal to ${celcius.toFixed(2)}°C`);
 
 
 
@@ -159,13 +159,13 @@
 
 // var total = (price1*quantity1)+(price2*quantity2)+charges;
 
-// document.body.innerHTML += `<br>Price of item 1 is ${price1}.
+// document.write ( `<br>Price of item 1 is ${price1}.
 //                             <br>Quantity of item 1 is ${quantity1}.
 //                             <br>price of item 2 is ${price2}.
 //                             <br>Quantity of item 2 is ${quantity2}.
 //                             <br>Shipping charges is ${charges}.
 //                             <br>Total is ${total}.
-//                             `;
+//                             `);
 
 
 
@@ -186,10 +186,10 @@
 
 // var percentage = (obtainMarks*100)/totalMarks
 
-// document.body.innerHTML += `<br>Total marks :${totalMarks}.
+// document.write ( `<br>Total marks :${totalMarks}.
 //                             <br>Obtained marks :${obtainMarks}
 //                             <br>Percentage :${percentage}
-//                             `;
+//                             `);
 
 
 
@@ -207,7 +207,7 @@
 
 
 
-// document.body.innerHTML += `<br>Total currency in PKR :${(10*104.80)+(25*28)}`;
+// document.write ( `<br>Total currency in PKR :${(10*104.80)+(25*28)}`);
 
 
 
@@ -226,7 +226,7 @@
 
 // var result = (((number+5)*10)/2);
 
-// document.body.innerHTML += `<br>${result}`;
+// document.write ( `<br>${result}`);
 
 
 
@@ -241,10 +241,10 @@
 // var byear = 2005;
 // var age = cyear - byear;
 
-// document.body.innerHTML += `<br>Current year ${cyear}.
+// document.write ( `<br>Current year ${cyear}.
 //                             <br>Birth year ${byear}.
 //                             <br>Your age is :${age}.
-//                             `;
+//                             `);
 
 
 
@@ -260,10 +260,10 @@
 
 // var area = (3.142*20*20);
 
-// document.body.innerHTML += `<br>Radius of circle is :${radius}.
+// document.write ( `<br>Radius of circle is :${radius}.
 //                             <br>Circumference of circle is ${circum}.
 //                             <br>Area of circle is ${area}.
-//                             `;
+//                             `);
 
 
 
@@ -290,9 +290,9 @@
 
 // var total = (maxAge-age)*365*quantity;
 
-// document.body.innerHTML += `<br>Favourite snack :${fsnack}.
+// document.write ( `<br>Favourite snack :${fsnack}.
 //                             <br>Current age :${age}.
 //                             <br>Maximum age :${maxAge}.
 //                             <br>Ammount of snack per day :${quantity}.
 //                             <br>You need ${total} ${fsnack} to last you until the ripe old age of ${maxAge}.
-//                              `;
+//                              `);
