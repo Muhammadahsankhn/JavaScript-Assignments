@@ -7,7 +7,7 @@
     <script src="matter.js"></script>
 </head>
 <body>
-    <script src="matter.js"></script>
+
 </body>
 </html> -->
 
@@ -65,10 +65,10 @@ var Varriable = "Variables must begin with a letter, $, or _. For example: $name
 var product = "Variable names are case-sensitive.";
 var store = "Variable names should not be JavaScript keywords.";
 
-document.body.innerHTML = `
+document.write ( `
     <h1>Rules for Naming JavaScript Variables</h1>
     <p>${Name}</p>
     <p>${Varriable}</p>
     <p>${product}</p>
     <p>${store}</p>
-`;
+);
