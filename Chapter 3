@@ -39,7 +39,7 @@ alert(`You have visited this website ${time} times`);
 
 var birthYear = 2005
 
-document.body.innerHTML = `My birth year is ${birthYear}...`; 
+document.write  (`My birth year is ${birthYear}...`); 
 
 
 
@@ -52,4 +52,4 @@ var quantity = 5
 var product = "Polo shirts(s)"
 var store = "Ghouri Clothing Store"
 
-document.body.innerHTML = `${Name} ordered ${quantity} ${product} on ${store}.`; 
+document.write = (`${Name} ordered ${quantity} ${product} on ${store}.`); 
