@@ -1,0 +1,142 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="matter.js"></script>
+</head>
+<body>
+
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var a = 10;
+
+
+// document.write ( "<h1>Result</h1>");
+
+// document.write ( `<br>The value of a is :${a}.`);
+
+// document.write ( `<br>The value of ++a is :${++a}.`);
+// document.write ( `<br>Now the value of a is :${a}.`);
+
+// document.write ( `<br>The value of a++ is :${a++}.`);
+// document.write ( `<br>Now the value of a is :${a}.`);
+
+// document.write ( `<br>The value of --a is :${--a}.`);
+// document.write ( `<br>Now the value of a is :${a}.`);
+
+// document.write ( `<br>The value of a-- is :${a--}.`);
+// document.write ( `<br>Now the value of a is :${a}.`);
+
+
+
+
+
+
+
+
+
+
+
+
+// var a = 2;
+// var b = 1;
+
+// var result = --a - --b + ++b + b--;
+
+// document.write ( `<br>a is:${a}.`);
+// document.write ( `<br>b is:${b}.`);
+// document.write ( `<br>Result is:${result}.`);
+
+// --a = 1
+// --a - --b = 1
+// --a - --b + ++b = 2
+// --a - --b + ++b + b-- = 3
+
+
+
+
+
+
+
+
+
+
+
+// var greet = prompt("Enter your name")
+// alert(`Greeting to you ${greet}`)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var num = +prompt("Enter Number");
+// var table;
+
+// if (isNaN(num) || num === 0) {
+//     table = 5;
+// } else {
+//     table = num;
+// }
+
+// for (i = 1; i <= 10; i++) {
+//     document.write(`${table} x ${i} = ${i * table}<br>`);
+// }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+// var sub1 = prompt("Enter your marks of English:");
+// var sub2 = prompt("Enter your marks of Math:");
+// var sub3 = prompt("Enter your marks of Urdu:");
+
+// var English = sub1;
+// var Math = sub2;
+// var Urdu = sub3;
+// var total = 100;
+
+// var per1 = (sub1 / total) * 100;
+// var per2 = (sub2 / total) * 100;
+// var per3 = (sub3 / total) * 100;
+
+// document.write("<table>");
+// document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th></tr>");
+// document.write(`<tr><td>English</td><td>${total}</td><td>${English}</td><td>${per1}%</td></tr>`);
+// document.write(`<tr><td>Math</td><td>${total}</td><td>${Math}</td><td>${per2}%</td></tr>`);
+// document.write(`<tr><td>Urdu</td><td>${total}</td><td>${Urdu}</td><td>${per3}%</td></tr>`);
+// document.write("</table>");
