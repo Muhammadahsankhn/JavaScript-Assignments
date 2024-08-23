@@ -1,0 +1,350 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="matter.js"></script>
+</head>
+<body>
+    
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+//                                                      Qno 1
+
+// var userInput = prompt("Enter the name of City :")
+
+// if (userInput === "karachi"){
+//     console.log("Wellcome to city of lights!");
+// }
+
+
+
+
+
+
+
+
+//                                                      Qno 2
+
+// var gender = prompt("Enter your gender :")
+
+// if (gender === "male"){
+//     console.log("Good Morning Sir.");
+// }else if (gender === "female"){
+//     console.log("Good Morning Ma'am.");
+// }else {
+//     console.log("wrong input");
+// }
+
+
+
+
+
+
+
+
+
+//                                                      Qno 3
+
+// var traffic = prompt("Enter the color of road traffic signal :")
+
+// if (traffic === "red"){
+//     console.log("Must stop.");
+
+// }else if (traffic === "yellow"){
+//     console.log("Ready to move.");
+    
+// }else if(traffic === "green"){
+//     console.log("Move now");
+// }else{
+//     console.log("Enter color only from traffic signals.");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+//                                                      Qno 4
+
+// var fuel = +prompt("Enter the current fuel of your car :")
+
+// if (fuel < 0.25){
+//     console.log("Please! refill the fuel in your car.");
+// }else{
+//     console.log("No need to refill the fuel.");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//                                                      Qno 5
+
+// var a = 4;
+// if(++a === 5){
+//     alert("Given condition for variable is true!")
+// }
+
+// var b = 82;
+// if(b++ === 83){
+//     alert("Given condition for variable is true!")
+// }
+
+
+// var c = 12;
+// if(c++ === 13){
+//     alert("Condition 1 is true!")
+// }
+
+// if(c === 13){
+//     alert("Condition 2 is true!")
+// }
+
+// if(++c < 14){
+//     alert("Condition 3 is true!")
+// }
+
+// if(c === 14){
+//     alert("Condition 4 is true!")
+// }
+
+
+
+// var materialCost = 20000;
+
+// var labourCost = 2000;
+// var totalCost = labourCost + materialCost;
+
+// if( totalCost === labourCost+materialCost){
+//     alert("The cost equal.")
+// }
+
+
+// if (true){
+//     alert("True")
+// }
+
+// if (false){
+//     alert("False")
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//                                                      Qno 6
+
+// var num = +prompt ("ENTER YOUR PERCENTAGE");
+//      var grade;
+//      var remarks;
+    
+//      if (num >= 0 && num <= 100){
+//          if(num >= 80){
+//              grade = "A-one";
+//              remarks = "Excellent"
+
+//          }else if (num >= 70){
+//              grade = "A";
+//              remarks = "Good";
+
+//          }else if (num >= 60){
+//              grade ="B";
+//              remarks = "You need to improve";
+//           } else {
+//              grade = "FAIL";
+//          }   
+    
+//         document.write("<h1>Mark Sheet</h1>");
+//         document.write("<br>Total marks : 300");
+//         document.write("<br>Obtained marks : 297");
+//         document.write(`<br>Percentage : ${num}%`);
+//         document.write(`<br>Grade : ${grade}`);
+//         document.write(`<br>Remarks : ${remarks}`);
+
+//      }   else{
+//          console.log("wrong input");
+//      }
+    
+
+
+
+
+
+
+
+
+
+
+
+//                                                      Qno 7
+
+
+// let secretNumber = Math.floor(Math.random() * 10) + 1;
+
+
+// let userGuess = prompt("Guess the secret number (between 1 and 10):");
+
+
+// if (parseInt(userGuess) === secretNumber) {
+//     alert("Congratulations! Correct answer.");
+
+// } else if (parseInt(++userGuess) === secretNumber) {
+//     alert("Close enough Correct answer." + secretNumber);
+
+// } else {
+//     alert("Sorry, the correct number was " + secretNumber);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//                                                      Qno 8
+
+
+// var userInput = +prompt("Enter the number :")
+
+// if (userInput % 3 === 0){
+//     alert("The given number is completly divisible by zero.")
+// }
+
+
+
+
+
+
+
+
+
+//                                                      Qno 9
+
+
+// var userInput = prompt("Enter number :")
+
+// if (userInput % 2 === 0){
+//     alert("Even number!")
+// }else{
+//     alert("Odd number!")
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//                                                      Qno 10
+
+
+// var temperature = +prompt("Enter the temperature :")
+
+// if (temperature >= 40){
+//     alert("It is too hot outside.");
+
+// }else if (temperature >= 30){
+//     alert("The weather today is normal.");
+    
+// }else if(temperature >= 20){
+//     alert("Today's Weather is cool.");
+
+// }else if(temperature >= 10){
+//     alert("OMG! today's Weather is so cool.");
+
+// }else{
+//     alert("Enter temperature.");
+// }
+
+
+
+
+
+
+
+
+
+
+
+//                                                      Qno 11
+
+// var num1 = +prompt("Enter number 1")
+// var num2 = +prompt("Enter number 2")
+
+// var operator = prompt("Select the operator from (+,-,/,*,%) :")
+
+// if (operator == '+'){
+//     console.log(num1 + num2);
+
+// }else if (operator === '-'){
+//     console.log(num1 - num2);
+    
+// }else if(operator === '/'){
+//     console.log(num1 / num2);
+
+// }else if(operator === '*'){
+//     console.log(num1 * num2);
+
+// }else if(operator === '%'){
+//     console.log(num1 % num2);
+
+// }else {
+//     console.log("Select the operator.");
+// }
