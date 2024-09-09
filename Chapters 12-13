@@ -1,0 +1,167 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="app.js"></script>
+    
+</head>
+<body>
+   
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var charchacter = prompt("Enter a character :")
+
+// if (charchacter >= 'a' && charchacter <= 'z'){
+//     console.log(`Given character ${charchacter} is Lowercase.`);
+    
+// }else if(charchacter >= 'A' && charchacter <= 'Z'){
+//     console.log(`Given Character ${charchacter} is Uppercase.`);
+// }else{
+//     console.log(`Given character ${charchacter} is not an alphabetic character.`);
+// }
+
+
+
+
+
+
+
+// var num1 = prompt("Enter a Num1 :")
+// var num2 = prompt("Enter a Num2 :")
+
+
+// if (num1 == num2){
+//     console.log(`Both numbers are equal.`);
+    
+// }else if(num1 > num2){
+//     console.log(`Num1 is Greater.`);
+// }else{
+//     console.log(`Num2 is Greater.`);
+// }
+
+
+// var num = prompt("Enter a Number :")
+
+
+
+// if (num == 0){
+//     console.log(`Given Number is zero.`);
+    
+// }else if(num < 0){
+//     console.log(`Given number is negative.`);
+// }else if(num > 0){
+//     console.log(`Given number is positive.`);
+// }else{
+//     console.log(`enter a number.`);
+    
+// }
+
+
+
+
+
+
+// var chaarcter = prompt("Enter a character :");
+
+// if(chaarcter.length === 1){
+        
+//     if('aeiouAEIOU'.includes(chaarcter)){
+//         console.log("true");
+        
+//     }else{
+//         console.log ("false");
+//     }
+// }else{
+//     console.log("Enter a character only.")
+// }
+
+
+
+
+// var password = "smit";
+
+// var userInput = prompt("Enter a password :")
+
+// if(userInput === null || userInput === ""){
+//     console.log("Please enter a password.");
+    
+// }else if(userInput === password){
+//     console.log("Corrrect!");
+    
+// }else{
+//     console.log("Incorrect!");
+    
+// }
+
+
+
+
+
+
+
+
+
+
+// var greetings;
+
+// var hour = 13;
+
+// if(hour > 18){
+//     greetings = ("Good Day!");
+    
+// }else{
+//     greetings = ("Good Evening!");
+    
+// }
+
+// console.log(greetings);
+
+
+
+
+
+
+
+
+
+
+// var time = +prompt("Enter a Time in 24 hours clock format :")
+
+
+// if(time >= 0000 && time < 1200){
+//     console.log("Good Morning!");
+    
+// }else if(time >= 1200 && time < 1700){
+//     console.log("Good Afternone");
+    
+// }else if(time >= 1700 && time < 2100){
+//     console.log("Good Evening!");
+    
+// }else if(time >= 2100 && time < 2359){
+//     console.log("Good Night!");
+    
+// }else{
+//     console.log("Please enter a valid time.");
+    
+// }
