@@ -1,0 +1,300 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="app.js"></script>
+    
+</head>
+<body>
+   
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+// //      1
+// let studentNames = [];
+
+
+// //      2
+// let students = [];
+
+
+
+
+// //      3
+// let names = ["Ahsan","Basim","Faiz","Moiz","Shaheer"]
+
+
+
+
+// //      4
+// let number = [1,2,3,4,5,6,7,8]
+
+
+
+
+// //      5
+// let boolean = [true,false,true,true,false,false]
+
+
+
+
+
+
+
+// //      6
+// let mix = ["Ahsan", 13, 5, true]
+
+
+
+
+
+
+
+
+
+
+
+//      7
+
+// let educationQualification = ["SSC", "HSC", "BCS", "BS","B.COM", "MS", "M.Phill", "PHD"]
+
+// console.log("Education Qualification:");
+// console.log("");
+// console.log(educationQualification[0]);
+// console.log(educationQualification[1]);
+// console.log(educationQualification[2]);
+// console.log(educationQualification[3]);
+// console.log(educationQualification[4]);
+// console.log(educationQualification[6]);
+// console.log(educationQualification[7]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let names = ["Micheal", "John", "Tony"]
+// let scores = [320, 230, 480]
+// let percentage = [((scores[0]*100)/500), ((scores[1]*100)/500), ((scores[2]*100)/500)]
+
+
+// console.log(`Score of ${names[0]} is ${scores[0]}.Percentage ${percentage[0]}%.`);
+// console.log(`Score of ${names[1]} is ${scores[1]}.Percentage ${percentage[1]}%.`);
+// console.log(`Score of ${names[2]} is ${scores[2]}.Percentage ${percentage[2]}%.`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let colorNames = ["Blue", "Green", "Yelllow"]
+// console.log(colorNames);
+
+// var userInput = prompt("Enter color you want to Add in the start :")
+
+// colorNames.unshift(userInput);
+
+// console.log(colorNames);
+
+// var userInput1 = prompt("Enter second color you want to Add in the start :")
+// var userInput2 = prompt("Enter third color you want to Add in the start :")
+
+// colorNames.unshift(userInput1);
+// colorNames.unshift(userInput2);
+
+// console.log(colorNames);
+
+// colorNames.shift();
+
+// console.log(colorNames);
+
+// var userInput3 = prompt("Enter index at which you want to add the color:");
+// var userInput4 = prompt("Enter the color you want to add:");
+
+// colorNames.splice(userInput3, 0, userInput4);
+
+// console.log(colorNames);
+
+// var userInput5 = prompt("Enter index at which you want to delete the color:");
+// var userInput6 = prompt("Enter how many color you want to delete:");
+
+// colorNames.splice(userInput5, userInput6);
+
+// console.log(colorNames);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let studentScores = [320,120,230,310]
+
+// console.log(`Students Scores : ${studentScores}`);
+
+// studentScores.sort((a, b) => a - b);
+
+// console.log(`Ordered Scores of Students : ${studentScores}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let cities = ["karachi", "Lahore", "Peshawar", "Islamabad", "Quetta"]
+
+// let newCities = [cities[3], cities[0], cities[1]]
+
+// console.log(`Cities Names: \n ${cities}`);
+
+// console.log(`Updated Cities Names: \n ${newCities}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let array = ["This", "is", "my", "Cat"]
+
+// jointArray = array.join(' ')
+
+
+// console.log(`Array: \n ${array}`);
+
+// console.log(`String: \n ${jointArray}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let devices = ["Keyboard", "Mouse", "Printer", "Monitor"];
+
+// document.write(`Devices:<br> ${devices}<br><br>`);
+
+
+// while (devices.length > 0) {
+//     let device = devices.shift(); 
+//     document.write(`out: <br> ${device}<br>`); 
+// }
+
+
+
+
+// let devices = ["Keyboard", "Mouse", "Printer", "Monitor"];
+
+// document.write(`Devices:<br> ${devices}<br><br>`);
+
+
+// while (devices.length > 0) {
+//     let device = devices.pop();
+//     document.write(`out: <br> ${device}<br>`); 
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let manufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+
+// let selectMenu = '<select name="phones">\n';
+
+// for (let i = 0; i < manufacturers.length; i++) {
+//     selectMenu += `<option value="${manufacturers[i]}">${manufacturers[i]}</option>\n`;
+// }
+
+// selectMenu += '</select>';
+
+// document.write(`<h3>Select a Phone Manufacturer:</h3>\n${selectMenu}`);
