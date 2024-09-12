@@ -1,0 +1,269 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="app.js"></script>
+    
+</head>
+<body>
+   
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let multidimensional = [[[]]];
+
+
+
+
+
+
+
+// let multidimensional = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+
+// console.log(multidimensional[0].join(' '));
+// console.log(multidimensional[1].join(' '));
+// console.log(multidimensional[2].join(' '));
+
+
+
+
+
+
+// var num = 10;
+
+// for(i = 1 ; i<= num ; i++){
+//     console.log(i);
+    
+// }
+
+
+
+
+
+
+
+
+
+// var table = +prompt("Enter number :");
+// var length = +prompt("Enter Length of the table :");
+
+// for(i = 1;i <= length; i++){
+//     console.log(`${table} X ${i} = ${table*i}`);
+    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var fruit = ["apple","Banana","Mango","Orange","Stawberry"];
+
+
+// for(i = 0; i < fruit.length ;i++){
+//     console.log(fruit[i]);
+    
+// }
+// for(i = 0; i < fruit.length ;i++){
+    
+//     console.log(`Element at index ${i} is ${fruit[i]}`);    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var num = 20;
+
+// let counting = ' ';
+// let reverse = ' ';
+// let even = ' ';
+// let odd = ' ';
+// let sequence = ' ';
+
+
+// for(let i = 1; i <= num; i++){
+//     counting += `${i}, `;
+    
+//     if (i == 10) {
+//         for (let j = i; j >= 1; j--) {
+//             reverse += `${j}, `;
+//         }
+//     }
+
+//     if (i % 2 == 0){
+//         even += `${i}, `;
+//         sequence += `${i}k, `
+//     }else {
+//         odd += `${i}, `
+//     }
+// }
+
+// counting = counting.slice(0,-22);
+// console.log("Counting\n");
+// console.log(counting);
+
+
+// console.log("Reverse\n");
+// reverse = reverse.slice(0,-2)
+// console.log(reverse);
+
+
+// console.log("Even\n");
+// console.log(even);
+
+// console.log("Odd\n");
+// console.log(odd);
+
+
+// console.log("Sequence\n");
+// console.log(sequence);
+
+
+
+
+
+
+
+
+
+
+
+
+// var items = ["cakes","apple pie","cookies","paties","chips"];
+// var userInput = prompt("Welcome to AHS bakery what do you want to order Sir/Ma'am :");
+// let itemFound = false;
+
+
+// for (i = 0;i < items.length ; i++){
+//     if (userInput === items[i]){
+//         console.log(`${userInput} is available at index ${i} in our bakery.`);
+//         itemFound = true;
+//         break;
+//     }
+// }
+
+// if (!itemFound) {
+//     console.log(`${userInput} is not available in our bakery.`);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var num = [23,65,24,86,13]
+// var greater = num[0];
+
+
+// for (i = 0; i < num.length - 1; i++){
+//     if (num[i] > greater){
+//         greater = num[i]
+//     }
+// }
+// console.log(`Array list :${num}`);
+// console.log(`Greatest number in the array is :${greater}`);
+
+
+
+
+
+
+
+
+
+
+
+
+// var num = [23,5,24,86,13]
+// var lesser = num[0];
+
+
+// for (i = 0; i < num.length; i++){
+//     if (num[i] < lesser){
+//         lesser = num[i]
+//     }
+// }
+// console.log(`Array list :${num}`);
+// console.log(`Smallest number in the array is :${lesser}`);
+
+
+
+
+
+
+
+
+
+
+
+// var num = 100;
+// var final = ' ';
+
+
+// for (i = 1 ; i <= num; i++){
+//     if (i % 5 == 0){
+//         final += `${i}, `; 
+        
+//     }
+// }
+
+
+// final = final.slice(0,-2);
+// console.log(final);
