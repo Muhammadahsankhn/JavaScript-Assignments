@@ -1,0 +1,72 @@
+var userBirthDate = prompt("Enter your Birth Date :");
+var userBirthMonth = prompt("Enter your Birth Month :").toLowerCase();
+var userBirthYear = prompt("Enter your Birth Year :");
+
+
+var monthArr = [
+  ["jan", "january", "01"],
+  ["feb", "february", "02"],
+  ["mar", "march", "03"],
+  ["apr", "april", "04"],
+  ["may", "05"],
+  ["jun", "june", "06"],
+  ["jul", "july", "07"],
+  ["aug", "august", "08"],
+  ["sep", "september", "09"],
+  ["oct", "october", "10"],
+  ["nov", "november", "11"],
+  ["dec", "december", "12"]
+];
+
+var month;
+
+
+for (var i = 0; i < monthArr.length; i++) {
+    if (monthArr[i].includes(userBirthMonth)) {
+        month = i + 1; 
+        break; 
+    }
+}
+
+
+if (!month) {
+    console.log("Invalid Birth.");
+} else {
+
+    var birthDate = new Date(userBirthYear, month - 1, userBirthDate); 
+    alert(
+        `Birth Date: \n${userBirthDate}:${month}:${userBirthYear}`
+    );
+
+}
+
+
+
+
+
+
+
+var nowDate = new Date();
+alert(
+    'Current Date: \n' + nowDate.getDate() + ":" + (nowDate.getMonth() + 1) + ":" + nowDate.getFullYear()
+);
+
+
+
+
+var difference = Math.abs(nowDate - birthDate);
+
+var differenceInSec = Math.floor(difference / 1000);
+var differenceInMin = Math.floor(differenceInSec / 60);
+var differenceInHour = Math.floor(differenceInMin / 60);
+var differenceInDays = Math.floor(differenceInHour / 24);
+
+
+var year = Math.floor(differenceInDays / 365);
+var yearRemainingDays = (differenceInDays % 365);
+var months = Math.floor(yearRemainingDays / 30);
+var days = Math.floor(yearRemainingDays % 30);
+
+
+
+alert(`You are ${year} years ${months} months ${days} days old!!!`)
