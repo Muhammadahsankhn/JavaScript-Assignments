@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo_List</title>
+    <style>
+        .todosContainer {
+            width: 500px;
+            height: auto;
+            background-color: #B9FF66;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .todo {
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .todo p {
+            margin: 0;
+        }
+        .highlight {
+            background-color: #e0ffe0;
+            transition: background-color 0.5s ease;
+        }
+        .btn-delete {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn-update {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <input id="inp" type="text" placeholder="Add a new task..." />
+    <button onclick="addTodo()">Add Todo!</button>
+    <div id="todos" class="todosContainer"></div>
+    <script src="test.js"></script>
+</body>
+</html>
