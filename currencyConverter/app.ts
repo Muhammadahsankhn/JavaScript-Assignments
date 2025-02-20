@@ -60,7 +60,7 @@ const updataFlag = (element:HTMLSelectElement) => {
 //     // Ensure the amount is at least 1
 //     if (isNaN(amount) || amount < 1) {
 //         amount = 1;
-//         if (inpAmount) inpAmount.value = "1"; // ✅ Update input field
+//         if (inpAmount) inpAmount.value = "1";
 //     }
 //     const url = `https://v6.exchangerate-api.com/v6/${fromCurr.value.toLowerCase()}/latest/${toCurr.value.toLowerCase()}`
 //     fetch(url).then(response => response.json()).then(result => {
